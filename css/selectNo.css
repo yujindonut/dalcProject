@@ -1,0 +1,96 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+section {
+  padding: 60px 0px;
+  margin: 0 auto;
+  width: 1194px;
+  text-align: center;
+  background-color: #fff2dc;
+}
+
+#pic {
+  margin: 0px 100px;
+  width: 1081px;
+  height: 1081px;
+}
+
+#btnWrap {
+  display: flex;
+  margin-top: 60px;
+  margin-left: -150px;
+}
+
+#leftarrow,
+#rightarrow {
+  background-color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#explain {
+  margin: 60px auto;
+  padding: 40px;
+  width: 808px;
+  text-align: center;
+  background-color: white;
+}
+
+#explainContent {
+  margin-bottom: 60px;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+#protectionGroupView {
+  margin-top: 100px;
+  margin-bottom: 60px;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+#linkBtn {
+  margin-bottom: 60px;
+  padding: 4px 10px;
+  background-color: white;
+  font-size: 28px;
+  border: none;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+#Goods1 {
+  margin-top: 80px;
+}
+
+#Goods1,
+#Goods2 {
+  margin-bottom: 80px;
+}
+
+#resultShareTit {
+  margin-bottom: 60px;
+  font-size: 28px;
+  text-align: center;
+}
+
+#resultBtnWrap {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 840px;
+}
+
+#retryBtn,
+#downloadBtn {
+  width: 394.14px;
+  height: 85px;
+  background-color: #ef8354;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  font-size: 55px;
+  cursor: pointer;
+}

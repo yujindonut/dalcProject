@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>나와 닮은 멸종 위기 동물 찾기</title>
+  <link rel="stylesheet" href="../css/selectYes.css" />
+</head>
+
+<body>
+  <section>
+    <img src="../images/newsYesTit.svg" />
+
+    <div id="btnWrap">
+      <button class="arrow" id="leftarrow"><img src="../images/leftBtn.svg" /></button>
+
+      <div>
+        <img id="pic">
+      </div>
+
+      <button class="arrow" id="rightarrow"><img src="../images/rightBtn.svg" /></button>
+    </div>
+
+    <div id="buttons">
+      <input type="button" class="button">
+      <input type="button" class="button">
+      <input type="button" class="button">
+      <input type="button" class="button">
+      <input type="button" class="button">
+    </div>
+
+    <div id="explain">
+      <div id="explainContent">🦊더 많은 여우 정보를 알고 싶다면?</div>
+      <div id="explainContent">-기사 더보기-</div>
+      <button onClick="location.href='https://www.dongduk.ac.kr/'" id="linkBtn">
+        멸종위기 여우, 방사량 급증.. 생존율은 60%에 불과
+      </button>
+      <br />
+      <button onClick="location.href='https://www.dongduk.ac.kr/'" id="linkBtn">
+        멸종위기 일급야생동물 ‘여우 가족들’ 소백산에 방사</button><br />
+      <button onClick="location.href='https://www.dongduk.ac.kr/'" id="linkBtn">
+        멸종위기 여우, 복원 노력에도 밀렵도구로 3마리 폐사
+      </button>
+      <div id="protectionGroupView">-동물 보호 단체 더보기-</div>
+      <button onClick="location.href='https://www.dongduk.ac.kr/'" id="linkBtn">WWF</button><br />
+      <button onClick="location.href='https://www.dongduk.ac.kr/'" id="linkBtn">국립생태원</button><br />
+      <button onClick="location.href='https://www.dongduk.ac.kr/'" id="linkBtn">동물보호시민단체 카라</button><br />
+      <button onClick="location.href='https://www.dongduk.ac.kr/'" id="linkBtn">동물자유연대</button><br />
+      <button onClick="location.href='https://www.dongduk.ac.kr/'" id="linkBtn">한국동물보호연합</button>
+    </div>
+
+    <div id="resultShareTit">결과 공유하기</div>
+
+    <div id="resultBtnWrap">
+      <button id="retryBtn" onClick="location.href='index.html'">테스트다시하기</button>
+      <button id="downloadBtn" onClick="location.href='newsNo.html'">결과 다운로드</button>
+    </div>
+  </section>
+
+  <script>
+    const images = [
+      '../images/foxNews1.svg',
+      '../images/foxNews2.svg',
+      '../images/foxNews3.svg'
+    ];
+  </script>
+
+  <script src="../js/selectYes.js"></script>
+</body>
+
+</html>

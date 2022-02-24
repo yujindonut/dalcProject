@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>나와 닮은 멸종 위기 동물 찾기</title>
+  <link rel="stylesheet" href="../css/selectYes.css" />
+</head>
+
+<body>
+  <section>
+    <img src="../images/newsYesTit.svg" />
+
+    <div id="btnWrap">
+      <button class="arrow" id="leftarrow"><img src="../images/leftBtn.svg" /></button>
+
+      <div>
+        <img id="pic">
+      </div>
+
+      <button class="arrow" id="rightarrow"><img src="../images/rightBtn.svg" /></button>
+    </div>
+
+    <div id="buttons">
+      <input type="button" class="button">
+      <input type="button" class="button">
+      <input type="button" class="button">
+      <input type="button" class="button">
+      <input type="button" class="button">
+    </div>
+
+    <div id="explain">
+      <div id="explainContent">🐯더 많은 호랑이 정보를 알고 싶다면?</div>
+      <div id="explainContent">-기사 더보기-</div>
+      <button onClick="location.href='https://www.hani.co.kr/arti/animalpeople/human_animal/943859.html'" id="linkBtn">
+        호랑이 삼키는 도로, 핵심 서식지 60% 위협
+      </button>
+      <br />
+      <button onClick="location.href='https://www.epnnews.com/news/articleView.html?idxno=5327'" id="linkBtn">
+        인간의 욕심 앞에서는 벵골호랑이마저 벌벌떤다</button><br />
+      <button onClick="location.href='https://www.gjdream.com/news/articleView.html?idxno=605605'" id="linkBtn">
+        서글픈 밀림의 제왕 호랑이
+      </button>
+      <div id="protectionGroupView">-동물 보호 단체 더보기-</div>
+      <button
+        onClick="location.href='https://campaign.wwfkorea.or.kr/FY21Polarbear_emforce?utm_source=google_pc&utm_medium=cpc&utm_campaign=fy21polarbear&utm_term=WWF%EC%84%B8%EA%B3%84%EC%9E%90%EC%97%B0%EA%B8%B0%EA%B8%88&gclid=Cj0KCQiA09eQBhCxARIsAAYRiyn8NXAqDbXACOCXpI1q06PIJ0FUIaeGQrSF--ydPDqcceeovBAf3GEaAg_rEALw_wcB'"
+        id="linkBtn">WWF</button><br />
+      <button
+        onClick="location.href='https://www.nie.re.kr/modedg/contentsView.do?ucont_id=CTX000109&menu_nix=57B9KU6O'"
+        id="linkBtn">국립생태원</button><br />
+      <button onClick="location.href='https://ekara.org/'" id="linkBtn">동물보호시민단체 카라</button><br />
+      <button
+        onClick="location.href='https://www.animals.or.kr/support/intro?utm_source=google&utm_medium=sa&utm_campaign=pc&utm_content=%ED%9B%84%EC%9B%90&utm_term=%EB%8F%99%EB%AC%BC%20%ED%9B%84%EC%9B%90&gclid=Cj0KCQiA09eQBhCxARIsAAYRiymKkZm7GagxZ89OnDoKD6CW5GQyXrdsm_cHJniWKuoS65sPInh5v-UaAhCYEALw_wcB'"
+        id="linkBtn">동물자유연대</button><br />
+      <button onClick="location.href='https://www.kaap.or.kr/'" id="linkBtn">한국동물보호연합</button>
+    </div>
+
+    <div id="resultShareTit">결과 공유하기</div>
+
+    <div id="resultBtnWrap">
+      <button id="retryBtn" onClick="location.href='index.html'">테스트다시하기</button>
+      <button id="downloadBtn" onClick="location.href='newsNo.html'">결과 다운로드</button>
+    </div>
+  </section>
+
+  <script>
+    const images = [
+      '../images/tiggerNews1.svg',
+      '../images/tiggerNews2.svg',
+      '../images/tiggerNews3.svg',
+      '../images/tiggerNews4.svg',
+    ];
+  </script>
+
+  <script src="../js/selectYes.js"></script>
+</body>
+
+</html>

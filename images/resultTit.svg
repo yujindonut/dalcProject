@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="730" height="192" viewBox="0 0 730 192">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #214223;
+        stroke: #214223;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 25px;
+      }
+
+      .cls-1, .cls-4 {
+        font-size: 57.309px;
+        font-family: MalgunGothic, Malgun Gothic;
+        letter-spacing: -0.1em;
+      }
+
+      .cls-2, .cls-5 {
+        font-family: SegoeUI, Segoe UI;
+      }
+
+      .cls-3, .cls-6 {
+        font-size: 74.838px;
+      }
+
+      .cls-4 {
+        fill: #fcfcfc;
+      }
+
+      .cls-5, .cls-6 {
+        fill: #57ce63;
+      }
+    </style>
+  </defs>
+  <g id="그룹_101" data-name="그룹 101" transform="translate(-596.232 -53.231)">
+    <text id="나와_닮은_멸종_위기_동물_유형은_" data-name="나와 닮은 
+멸종 위기 동물 유형은?" class="cls-1" transform="translate(961.232 140.231)"><tspan x="-115.989" y="0">나와</tspan><tspan class="cls-2" y="0"> </tspan><tspan y="0">닮은</tspan><tspan class="cls-2" y="0"> </tspan><tspan class="cls-3"><tspan x="-339.39" y="60.956">멸종</tspan><tspan class="cls-2" y="60.956"> </tspan><tspan y="60.956">위기</tspan><tspan class="cls-2" y="60.956"> </tspan><tspan y="60.956">동물</tspan><tspan class="cls-2" y="60.956"> </tspan><tspan y="60.956">유형은</tspan><tspan class="cls-2" y="60.956">?</tspan></tspan></text>
+    <text id="나와_닮은_멸종_위기_동물_유형은_2" data-name="나와 닮은 
+멸종 위기 동물 유형은?" class="cls-4" transform="translate(961.231 140.231)"><tspan x="-115.989" y="0">나와</tspan><tspan class="cls-2" y="0"> </tspan><tspan y="0">닮은</tspan><tspan class="cls-5" y="0"> </tspan><tspan class="cls-6"><tspan x="-339.39" y="60.956">멸종</tspan><tspan class="cls-2" y="60.956"> </tspan><tspan y="60.956">위기</tspan><tspan class="cls-2" y="60.956"> </tspan><tspan y="60.956">동물</tspan><tspan class="cls-2" y="60.956"> </tspan><tspan y="60.956">유형은</tspan><tspan class="cls-2" y="60.956">?</tspan></tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,83 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+section {
+  text-align: center;
+  margin: 0 auto;
+  padding: 60px 0px;
+  width: 1194px;
+  background-color: #fff2dc;
+}
+
+#tit {
+  margin-bottom: 60px;
+}
+
+#imgWrap {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 1020px;
+}
+
+#uploadImg {
+  width: 499.62px;
+  height: 499.56px;
+  background-color: #fafafa;
+}
+
+#animalImg {
+  width: 499.62px;
+  height: 499.56px;
+  background-color: #fafafa;
+}
+
+#type {
+  margin: 60px 0px;
+  font-size: 48px;
+  color: #ef8354;
+}
+
+#explain {
+  margin: 0 auto;
+  padding: 20px;
+  width: 978px;
+  text-align: center;
+  background-color: white;
+}
+
+#explainTit {
+  margin-bottom: 40px;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+#explainContent {
+  margin-bottom: 80px;
+  font-size: 28px;
+}
+
+#resultBanner {
+  margin: 60px 0px;
+}
+
+#btnWrap {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 840px;
+}
+
+#yesBtn,
+#noBtn {
+  width: 394.14px;
+  height: 85px;
+  background-color: #ef8354;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  font-size: 55px;
+  cursor: pointer;
+}

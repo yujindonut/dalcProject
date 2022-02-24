@@ -1,0 +1,71 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+section {
+  text-align: center;
+  margin: 0 auto;
+  padding: 60px 0px;
+  width: 1194px;
+  background-color: #fff2dc;
+}
+
+#tit {
+  margin-bottom: 60px;
+}
+
+#imageUploadWrap {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 664.78px;
+  height: 520.5px;
+  object-fit: contain;
+  border-radius: 10px;
+  border: dashed 1.5px #35465d;
+  background-color: #ffffff;
+}
+
+#imageUploadWrap:hover {
+  background-color: #4e5e7482;
+  border: 1.5px dashed #ffffff;
+}
+
+#fileUploadInput {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  outline: none;
+  opacity: 0;
+  cursor: pointer;
+}
+
+#dragText {
+  text-align: center;
+}
+
+#dragText h3 {
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+#uploadText {
+  margin-top: 40px;
+}
+
+#resultBtn {
+  margin-top: 60px;
+  width: 292px;
+  height: 84px;
+  color: white;
+  background-color: #ef8354;
+  border: none;
+  border-radius: 10px;
+  font-size: 48px;
+  cursor: pointer;
+}

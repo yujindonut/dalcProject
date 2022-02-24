@@ -1,0 +1,35 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  padding: 60px 0px;
+  margin: 0 auto;
+  width: 1194px;
+  text-align: center;
+  background-color: #fff2dc;
+}
+
+#banner {
+  display: block;
+  margin: 0 auto;
+  width: 837.7px;
+  height: 787.09px;
+}
+
+#startBtn {
+  display: block;
+  margin: 0 auto;
+  margin-top: 40px;
+  width: 292px;
+  height: 84px;
+  color: white;
+  background-color: #ef8354;
+  border: none;
+  border-radius: 10px;
+  font-size: 48px;
+  cursor: pointer;
+}
