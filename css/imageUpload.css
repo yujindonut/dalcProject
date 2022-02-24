@@ -1,6 +1,9 @@
-* {
+  * {
   margin: 0px;
   padding: 0px;
+}
+body{
+  font-family: 'Gowun Dodum', sans-serif;
 }
 
 section {
@@ -20,15 +23,17 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0 auto;
   width: 664.78px;
   height: 520.5px;
+  width: 60%;
+  margin: 0 auto;
+  position: relative;
   object-fit: contain;
   border-radius: 10px;
   border: dashed 1.5px #35465d;
   background-color: #ffffff;
 }
-
+.image-dropping,
 #imageUploadWrap:hover {
   background-color: #4e5e7482;
   border: 1.5px dashed #ffffff;
@@ -59,7 +64,7 @@ section {
 }
 
 #resultBtn {
-  margin-top: 60px;
+  margin-top: 40px;
   width: 292px;
   height: 84px;
   color: white;
@@ -68,4 +73,223 @@ section {
   border-radius: 10px;
   font-size: 48px;
   cursor: pointer;
+}  
+.file-upload {
+  padding: 0% 3%;
+  margin: 0 auto;
+  border-radius: 10px;
+  border: solid 1.5px #FDF2DE;
+  background-color: #FDF2DE;
+}
+.file-upload-btn {
+width: 100%;
+margin: 0;
+color: #fff;
+background: #1FB264;
+border: none;
+padding: 10px;
+border-radius: 4px;
+border-bottom: 4px solid #15824B;
+transition: all .2s ease;
+outline: none;
+text-transform: uppercase;
+font-weight: 700;
+}
+
+.file-upload-btn:hover {
+background: #1AA059;
+color: #ffffff;
+transition: all .2s ease;
+cursor: pointer;
+}
+
+.file-upload-btn:active {
+border: 0;
+transition: all .2s ease;
+}
+
+.file-upload-content {
+display: none;
+text-align: center;
+}
+#loading {
+display: none;
+}
+
+.file-upload-input {
+position: absolute;
+margin: 0;
+padding: 0;
+width: 100%;
+height: 100%;
+outline: none;
+opacity: 0;
+cursor: pointer;
+}
+
+.image-upload-wrap {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 664.78px;
+  height: 520.5px;
+  width: 60%;
+  margin: 0 auto;
+  position: relative;
+  object-fit: contain;
+  border-radius: 10px;
+  border: dashed 1.5px #35465d;
+  background-color: #ffffff;
+}
+
+.image-dropping,
+.image-upload-wrap:hover {
+  background-color: #35465d82;
+  border: 1.5px dashed #ffffff;
+}
+
+.image-title-wrap {
+padding: 0 15px 15px 15px;
+color: #222;
+}
+
+.drag-text {
+text-align: center;
+}
+
+.drag-text h3 {
+font-weight: 500;
+text-transform: uppercase;
+}
+
+.file-upload-image {
+max-height: 60%;
+max-width: 60%;
+margin: auto;
+padding: 10px;
+}
+.upload {
+  width: 20%;
+}
+
+.upload-text {
+  width: 58%;
+  font-size: 1.5rem;
+  line-height: 1.53;
+  text-align: center;
+  color: #35465d;
+  margin: 0 auto;
+}
+
+.footer {
+  background-color: initial;
+  color: initial;
+}
+
+.bar-container {
+height: 2.7rem;
+}
+.deer-box {
+position: absolute;
+top: 0;
+left: 0;
+height: 2rem;
+border-radius: 10px;
+width: 100%;
+background-color: rgba(117, 204, 84, 0.2);
+}
+.deer-bar {
+position: absolute;
+top: 0;
+left: 0;
+height: 2rem;
+border-radius: 10px;
+background-color: rgba(117, 204, 84, 1);
+}
+.fox-box {
+position: absolute;
+top: 0;
+left: 0;
+height: 2rem;
+border-radius: 10px;
+width: 100%;
+background-color: rgba(188, 87, 255, 0.2);
+}
+.fox-bar {
+position: absolute;
+top: 0;
+left: 0;
+height: 2rem;
+border-radius: 10px;
+background-color: rgba(145, 21, 228, 0.2);
+}
+.squirrel-box {
+position: absolute;
+top: 0;
+left: 0;
+height: 2rem;
+border-radius: 10px;
+width: 100%;
+background-color: rgba(27, 175, 234, 0.2);
+}
+.squirrel-bar {
+position: absolute;
+top: 0;
+left: 0;
+height: 2rem;
+border-radius: 10px;
+background-color: rgba(27, 175, 234, 1);
+}
+.tiger-box {
+position: absolute;
+top: 0;
+left: 0;
+height: 2rem;
+border-radius: 10px;
+width: 100%;
+background-color: rgba(251, 176, 59, 0.2);
+}
+.tiger-bar {
+position: absolute;
+top: 0;
+left: 0;
+height: 2rem;
+border-radius: 10px;
+background-color: rgba(251, 176, 59, 1);
+}
+.bear-box {
+position: absolute;
+top: 0;
+left: 0;
+height: 2rem;
+border-radius: 10px;
+width: 100%;
+background-color: rgba(195, 140, 102, 0.2);
+}
+.bear-bar {
+position: absolute;
+top: 0;
+left: 0;
+height: 2rem;
+border-radius: 10px;
+background-color: rgba(195, 140, 102, 1);
+}
+.percent-text {
+font-size: 1rem;
+font-weight: bold;
+color: #4d4d4d;
+}
+.animal-label {
+  width: 30%;
+  text-align: left;
+  font-weight: bold;
+  height: 2rem;
+}
+#label-container {
+  width: 55%;
+  margin: 0 auto;
+}
+.result-message {
+  font-size: 2rem;
 }
