@@ -8,13 +8,25 @@
 </head>
 
 <body>
-  <section>
+  <!-- <script class="jsbin" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+  <script type="text/javascript">
+    // var imagelink = $('#imagelink').val();
+    const name = document.getElementById('.imagelink').value;
+    var imagelink = $('.imagelink').val();
+    console.log(name)
+    // $('.file-upload-image').attr('src', imagelink);
+    var link = "<img class='file-upload-image' id='uploadImg' src='" + imagelink + "' alt='your image' />"
+    $('.result-message').html(link);
+  </script> -->
+  <!-- <section>
     <img src="../images/resultTit.svg" id="tit" />
 
+
     <div id="imgWrap">
-      <div id="uploadImg"></div>
-      <img src="../images/squirrel.svg" id="animalImg" />
-    </div>
+      <div class="result-message"></div>
+      <img class="file-upload-image" id="uploadImg" src="#" alt="your image" />
+    </div> -->
+    <img src="../images/squirrel.svg" id="animalImg" />
 
     <div id="type">🐿하늘 다람쥐상</div>
     <div id="explain">
@@ -115,8 +127,8 @@
     <img src="../images/resultBanner.svg" id="resultBanner" />
 
     <div id="btnWrap">
-      <button id="yesBtn" onClick="location.href='yesTigger.html'">YES</button>
-      <button id="noBtn" onClick="location.href='noTigger.html'">NO</button>
+      <button id="yesBtn" onClick="location.href='/selectYes/yesSquirrel.html'">YES</button>
+      <button id="noBtn" onClick="location.href='/selectNo/noSquirrel.html'">NO</button>
     </div>
   </section>
 </body>

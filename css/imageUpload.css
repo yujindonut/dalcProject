@@ -279,9 +279,10 @@ background-color: rgba(195, 140, 102, 1);
 font-size: 1rem;
 font-weight: bold;
 color: #4d4d4d;
+width: 20%;
 }
 .animal-label {
-  width: 30%;
+  width: 20%;
   text-align: left;
   font-weight: bold;
   height: 2rem;
@@ -289,7 +290,15 @@ color: #4d4d4d;
 #label-container {
   width: 55%;
   margin: 0 auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 .result-message {
   font-size: 2rem;
+}
+#imgWrap {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 1020px;
 }

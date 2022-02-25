@@ -40,43 +40,72 @@
         const prediction = await model.predict(image, false);
         // 크기 비교 ( 가장 큰 값이 위로 가도록 )
         prediction.sort((a, b) => parseFloat(b.probability) - parseFloat(a.probability));
-        var myType;
+        var myType, imagelink = $('.file-upload-image').attr('src');
+        console.log(imagelink)
         switch (prediction[0].className) {
           case "deer":
-            myType = deer_link()
-            function deer_link() {
-              location.href = "/result/deerResult.html"
-            }
+            // myType = deer_link()
+            // function deer_link() {
+            //   location.href = "/result/deerResult.html"
+            // }
+            $(function () {
+              $('.imgWrap').hide();
+              $("#result-message").load("/result/deerResult.html");
+            });
             break;
           case "fox":
-            myType = fox_link()
-            function fox_link() {
-              location.href = "/result/foxResult.html"
-            }
+            // myType = fox_link()
+            // function fox_link() {
+            //   location.href = "/result/foxResult.html"
+            // }
+            $(function () {
+              $('.imgWrap').hide();
+              $("#result-message").load("/result/foxResult.html");
+            });
             break;
           case "squirrel":
-            myType = squirrel_link()
-            function squirrel_link() {
-              location.href = "/result/squirrelResult.html"
-            }
+            // myType = squirrel_link()
+            // function squirrel_link() {
+            //   location.href = "/result/squirrelResult.html"
+            // }
+            console.log(imagelink)
+            $(function () {
+              $('.imgWrap').hide();
+              $("#result-message").load("/result/squirrelResult.html");
+            });
             break;
           case "tiger":
-            function tiger_link() {
-              location.href = "/result/tigerResult.html"
-            }
+            // myType = tiger_link()
+            // function tiger_link() {
+            //   location.href = "/result/tigerResult.html"
+            // }
+            $(function () {
+              $('.imgWrap').hide();
+              $("#result-message").load("/result/tigerResult.html");
+            });
             break;
           case "bear":
-            function bear_link() {
-              location.href = "/result/bearResult.html"
-            }
+            // myType = bear_link()
+            // function bear_link() {
+            //   location.href = "/result/bearResult.html"
+            // }
+            $(function () {
+              $('.imgWrap').hide();
+              $("#result-message").load("/result/bearResult.html");
+            });
             break;
           default:
-            function bear_link() {
-              location.href = "/result/bearResult.html"
-            }
+            // myType = bear_link()
+            // function bear_link() {
+            //   location.href = "/result/bearResult.html"
+            // }
+            $(function () {
+              $('.imgWrap').hide();
+              $("#result-message").load("/result/bearResult.html");
+            });
         }
-        var link = "<button type='button' id='resultBtn' onClick='" + myType + "'>결과보기</button>"
-        $('.result-message').html(link);
+        // var link = "<button type='button' id='resultBtn' onClick='" + myType + "'>결과보기</button>" 
+
         var barWidth;
         for (let i = 0; i < maxPredictions; i++) {
           if (prediction[i].probability.toFixed(2) > 0.1) {
@@ -113,8 +142,13 @@
         // 
       }  
     </script>
-    <img src="../images/uploadTit.svg" id="tit" />
     <script class="jsbin" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <div class="file-upload">
+
+    </div>
+    <div class="upload-image">
+      <img src="../images/uploadTit.svg" id="tit" />
+    </div>
     <div class="mt-3 container file-upload">
       <div class="image-upload-wrap">
         <!-- 변화가 생겼을때(사진을 업로드 하는 등..), readUrl실행됨  -->
@@ -132,12 +166,19 @@
           </div>
           <p class="text-center">AI가 당신의 동물상을 분석중입니다.</p>
         </div>
-        <!-- model 결과값 -->
-        <div id="label-container" class="d-flex flex-column justify-content-around"></div>
-        <div id="addThis" class="addthis_inline_share_toolbox_6lz1"></div>
-        <!-- 내 상 결과 보기 -->
-        <p class="result-message"></p>
       </div>
+    </div>
+    <div id="result-page" style="display:none">
+      <!-- model 결과값 -->
+      <!-- 내 상 결과 보기 -->
+      <img src="../images/resultTit.svg" id="tit" />
+      <div id="imgWrap">
+        <!-- <img class="file-upload-image" id="uploadImg" src="#" alt="your image" /> -->
+        <img class="file-upload-image" id="uploadImg" src="#" alt="your image" />
+        <!-- <img src="/images/squirrel.svg" id="animalImg" /> -->
+      </div>
+      <div id="label-container" class="d-flex flex-column justify-content-around"></div>
+      <div id="result-message"></div>
     </div>
 
   </section>
@@ -147,6 +188,7 @@
         var reader = new FileReader();
         reader.onload = function (e) {
           $('.image-upload-wrap').hide();
+          $('.result-page').hide();
           // 사진 업로드 하면 사진 올릴 수 있는 부분 안보이게
           $('#loading').show();
           $('.file-upload-image').attr('src', e.target.result);
@@ -161,6 +203,9 @@
           // console.log("모델 실행");
           predict();
           $('#loading').hide();
+          $('.file-upload-content').hide();
+          $('#result-page').show();
+          $('.upload-image').hide();
         });
       } else {
         removeUpload();
@@ -170,6 +215,7 @@
       $('.file-upload-input').replaceWith($('.file-upload-input').clone());
       $('.file-upload-content').hide();
       $('.image-upload-wrap').show();
+      $('.result-page').hide();
     }
     $('.image-upload-wrap').bind('dragover', function () {
       $('.image-upload-wrap').addClass('image-dropping');
