@@ -67,15 +67,19 @@ section {
   text-align: center;
 }
 
+#shareTit {
+  margin-bottom: 20px;
+  font-size: 28px;
+}
+
 #resultBtnWrap {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   margin: 0 auto;
   width: 840px;
 }
 
-#retryBtn,
-#downloadBtn {
+#retryBtn {
   width: 394.14px;
   height: 85px;
   background-color: #ef8354;

@@ -1,8 +1,8 @@
-  * {
+* {
   margin: 0px;
   padding: 0px;
 }
-body{
+body {
   font-family: 'Gowun Dodum', sans-serif;
 }
 
@@ -73,58 +73,60 @@ section {
   border-radius: 10px;
   font-size: 48px;
   cursor: pointer;
-}  
+}
+
 .file-upload {
   padding: 0% 3%;
   margin: 0 auto;
   border-radius: 10px;
-  border: solid 1.5px #FDF2DE;
-  background-color: #FDF2DE;
+  border: solid 1.5px #fdf2de;
+  background-color: #fdf2de;
 }
+
 .file-upload-btn {
-width: 100%;
-margin: 0;
-color: #fff;
-background: #1FB264;
-border: none;
-padding: 10px;
-border-radius: 4px;
-border-bottom: 4px solid #15824B;
-transition: all .2s ease;
-outline: none;
-text-transform: uppercase;
-font-weight: 700;
+  width: 100%;
+  margin: 0;
+  color: #fff;
+  background: #1fb264;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  border-bottom: 4px solid #15824b;
+  transition: all 0.2s ease;
+  outline: none;
+  text-transform: uppercase;
+  font-weight: 700;
 }
 
 .file-upload-btn:hover {
-background: #1AA059;
-color: #ffffff;
-transition: all .2s ease;
-cursor: pointer;
+  background: #1aa059;
+  color: #ffffff;
+  transition: all 0.2s ease;
+  cursor: pointer;
 }
 
 .file-upload-btn:active {
-border: 0;
-transition: all .2s ease;
+  border: 0;
+  transition: all 0.2s ease;
 }
 
 .file-upload-content {
-display: none;
-text-align: center;
+  display: none;
+  text-align: center;
 }
 #loading {
-display: none;
+  display: none;
 }
 
 .file-upload-input {
-position: absolute;
-margin: 0;
-padding: 0;
-width: 100%;
-height: 100%;
-outline: none;
-opacity: 0;
-cursor: pointer;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  outline: none;
+  opacity: 0;
+  cursor: pointer;
 }
 
 .image-upload-wrap {
@@ -150,24 +152,24 @@ cursor: pointer;
 }
 
 .image-title-wrap {
-padding: 0 15px 15px 15px;
-color: #222;
+  padding: 0 15px 15px 15px;
+  color: #222;
 }
 
 .drag-text {
-text-align: center;
+  text-align: center;
 }
 
 .drag-text h3 {
-font-weight: 500;
-text-transform: uppercase;
+  font-weight: 500;
+  text-transform: uppercase;
 }
 
 .file-upload-image {
-max-height: 60%;
-max-width: 60%;
-margin: auto;
-padding: 10px;
+  max-height: 60%;
+  max-width: 60%;
+  margin: auto;
+  padding: 10px;
 }
 .upload {
   width: 20%;
@@ -188,114 +190,129 @@ padding: 10px;
 }
 
 .bar-container {
-height: 2.7rem;
+  height: 2.7rem;
 }
+
 .deer-box {
-position: absolute;
-top: 0;
-left: 0;
-height: 2rem;
-border-radius: 10px;
-width: 100%;
-background-color: rgba(117, 204, 84, 0.2);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: rgba(117, 204, 84, 0.2);
 }
+
 .deer-bar {
-position: absolute;
-top: 0;
-left: 0;
-height: 2rem;
-border-radius: 10px;
-background-color: rgba(117, 204, 84, 1);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: rgba(117, 204, 84, 1);
 }
+
 .fox-box {
-position: absolute;
-top: 0;
-left: 0;
-height: 2rem;
-border-radius: 10px;
-width: 100%;
-background-color: rgba(188, 87, 255, 0.2);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: rgba(188, 87, 255, 0.2);
 }
+
 .fox-bar {
-position: absolute;
-top: 0;
-left: 0;
-height: 2rem;
-border-radius: 10px;
-background-color: rgba(145, 21, 228, 0.2);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: rgba(145, 21, 228, 0.2);
 }
+
 .squirrel-box {
-position: absolute;
-top: 0;
-left: 0;
-height: 2rem;
-border-radius: 10px;
-width: 100%;
-background-color: rgba(27, 175, 234, 0.2);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: rgba(27, 175, 234, 0.2);
 }
+
 .squirrel-bar {
-position: absolute;
-top: 0;
-left: 0;
-height: 2rem;
-border-radius: 10px;
-background-color: rgba(27, 175, 234, 1);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: rgba(27, 175, 234, 1);
 }
+
 .tiger-box {
-position: absolute;
-top: 0;
-left: 0;
-height: 2rem;
-border-radius: 10px;
-width: 100%;
-background-color: rgba(251, 176, 59, 0.2);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: rgba(251, 176, 59, 0.2);
 }
+
 .tiger-bar {
-position: absolute;
-top: 0;
-left: 0;
-height: 2rem;
-border-radius: 10px;
-background-color: rgba(251, 176, 59, 1);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: rgba(251, 176, 59, 1);
 }
+
 .bear-box {
-position: absolute;
-top: 0;
-left: 0;
-height: 2rem;
-border-radius: 10px;
-width: 100%;
-background-color: rgba(195, 140, 102, 0.2);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: rgba(195, 140, 102, 0.2);
 }
+
 .bear-bar {
-position: absolute;
-top: 0;
-left: 0;
-height: 2rem;
-border-radius: 10px;
-background-color: rgba(195, 140, 102, 1);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: rgba(195, 140, 102, 1);
 }
+
 .percent-text {
-font-size: 1rem;
-font-weight: bold;
-color: #4d4d4d;
-width: 20%;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #4d4d4d;
+  width: 20%;
 }
+
 .animal-label {
   width: 20%;
   text-align: left;
   font-weight: bold;
   height: 2rem;
 }
+
 #label-container {
   width: 55%;
   margin: 0 auto;
   margin-top: 5%;
   margin-bottom: 5%;
 }
+
 .result-message {
   font-size: 2rem;
 }
+
 #imgWrap {
   display: flex;
   justify-content: space-between;

@@ -3,14 +3,13 @@ const rightArrow = document.querySelector('#rightarrow');
 const leftArrow = document.querySelector('#leftarrow');
 let pic = document.querySelector('#pic');
 
-pic.setAttribute('src', images[0]); // 초기 이미지 지정
+pic.setAttribute('src', images[0]);
 for (let i = 0; i < buttons.length; i++) {
   buttons[i].onclick = function () {
     pic.setAttribute('src', images[i]);
   };
 }
 
-// 우측 화살표 버튼 클릭 시 이미지 변경
 rightArrow.addEventListener('click', function () {
   for (let i = 0; i < images.length; i++) {
     console.log(i);
@@ -27,7 +26,6 @@ rightArrow.addEventListener('click', function () {
   }
 });
 
-// 좌측 화살표 버튼 클릭 시 이미지 변경
 leftArrow.addEventListener('click', function () {
   for (let i = 0; i < images.length; i++) {
     console.log('왼쪽' + i);
