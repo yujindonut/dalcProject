@@ -9,7 +9,7 @@
     rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <link rel="stylesheet" href="/css/imageUpload.css" />
+  <link rel="stylesheet" href="imageUpload.css" />
 </head>
 
 <body>
@@ -44,68 +44,41 @@
         console.log(imagelink)
         switch (prediction[0].className) {
           case "deer":
-            // myType = deer_link()
-            // function deer_link() {
-            //   location.href = "/result/deerResult.html"
-            // }
             $(function () {
               $('.imgWrap').hide();
-              $("#result-message").load("/result/deerResult.html");
+              $("#result-message").load("deerResult.html");
             });
             break;
           case "fox":
-            // myType = fox_link()
-            // function fox_link() {
-            //   location.href = "/result/foxResult.html"
-            // }
             $(function () {
               $('.imgWrap').hide();
-              $("#result-message").load("/result/foxResult.html");
+              $("#result-message").load("foxResult.html");
             });
             break;
           case "squirrel":
-            // myType = squirrel_link()
-            // function squirrel_link() {
-            //   location.href = "/result/squirrelResult.html"
-            // }
-            console.log(imagelink)
             $(function () {
               $('.imgWrap').hide();
-              $("#result-message").load("/result/squirrelResult.html");
+              $("#result-message").load("squirrelResult.html");
             });
             break;
           case "tiger":
-            // myType = tiger_link()
-            // function tiger_link() {
-            //   location.href = "/result/tigerResult.html"
-            // }
             $(function () {
               $('.imgWrap').hide();
-              $("#result-message").load("/result/tigerResult.html");
+              $("#result-message").load("tigerResult.html");
             });
             break;
           case "bear":
-            // myType = bear_link()
-            // function bear_link() {
-            //   location.href = "/result/bearResult.html"
-            // }
             $(function () {
               $('.imgWrap').hide();
-              $("#result-message").load("/result/bearResult.html");
+              $("#result-message").load("bearResult.html");
             });
             break;
           default:
-            // myType = bear_link()
-            // function bear_link() {
-            //   location.href = "/result/bearResult.html"
-            // }
             $(function () {
               $('.imgWrap').hide();
-              $("#result-message").load("/result/bearResult.html");
+              $("#result-message").load("bearResult.html");
             });
         }
-        // var link = "<button type='button' id='resultBtn' onClick='" + myType + "'>결과보기</button>" 
-
         var barWidth;
         for (let i = 0; i < maxPredictions; i++) {
           if (prediction[i].probability.toFixed(2) > 0.1) {
@@ -144,7 +117,6 @@
     </script>
     <script class="jsbin" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
     <div class="file-upload">
-
     </div>
     <div class="upload-image">
       <img src="/images/uploadTit.svg" id="tit" />
