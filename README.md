@@ -4,12 +4,25 @@
 
 ## 프로젝트 설명
 ??
+## 기획요약
+![image](https://user-images.githubusercontent.com/78431728/157068844-976ccb8c-2841-4a95-ae41-79676b929d4f.png)
+![image](https://user-images.githubusercontent.com/78431728/157068918-69d1f742-6bf9-4045-bc55-0ebf09f31f89.png)
+
+## 화면설계
+![image](https://user-images.githubusercontent.com/78431728/157069008-66f637fe-bc45-437a-8000-ce16dab06091.png)
+
+## 알고리즘
+![image](https://user-images.githubusercontent.com/78431728/157069137-64692852-7555-4bec-ac0c-eb955ccebeaa.png)
+![image](https://user-images.githubusercontent.com/78431728/157069224-83512636-4007-4857-afad-fccff0c404d5.png)
+![image](https://user-images.githubusercontent.com/78431728/157069310-9361d7d3-fca7-4522-86ef-bce42ca724e6.png)
+![image](https://user-images.githubusercontent.com/78431728/157069395-c06242da-5d0a-4c20-8585-6a5ca58ff929.png)
+![image](https://user-images.githubusercontent.com/78431728/157069455-8e294ea8-128b-48a5-ac0c-4d06d7d2c45c.png)
+![image](https://user-images.githubusercontent.com/78431728/157069508-732632fc-25b3-49be-bb06-a0991d6744a8.png)
 
 ## 최종 배포 사이트
 > https://saveanimal-dalc.netlify.app
 
 ## 사용 언어
-
 > HTML / CSS / JAVASCRIPT
 
 ## How to Use the Project
