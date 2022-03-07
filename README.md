@@ -2,8 +2,6 @@
 > save Animal
 > 나와 닮은 멸종 위기 동물 찾기
 
-## 프로젝트 설명
-??
 ## 기획요약
 ![image](https://user-images.githubusercontent.com/78431728/157068844-976ccb8c-2841-4a95-ae41-79676b929d4f.png)
 ![image](https://user-images.githubusercontent.com/78431728/157068918-69d1f742-6bf9-4045-bc55-0ebf09f31f89.png)
